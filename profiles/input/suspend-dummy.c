@@ -40,7 +40,7 @@
 #include "src/log.h"
 #include "suspend.h"
 
-#define HOG_SUSPEND_FIFO	"/tmp/hogsuspend"
+#define HOG_SUSPEND_FIFO	"/run/hogsuspend"
 
 static suspend_event suspend_cb = NULL;
 static resume_event resume_cb = NULL;
